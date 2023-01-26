@@ -7,7 +7,7 @@ This resource page includes the dataset used to train a battery degradation neur
 * 'DNN.py' is designed to train a deep neural network model to predict the battery degradation value.
 * 'BatteryData_Sample.xlsx' is a sample battery data that collected processed from matlab. which is also the input for the 'readtestdata_size.py'
 * 'readtestdata_size.py' is designed to process the data from the excel and pack the data into x_sample,y_sample,x_test,y_test.
-* 'x_sample.np ,y_sample.np ,x_test.np ,y_test.np' are the tranining datas already attached. Normally it is the output of 'readtestdata_size.py'
+* 'x_sample.npy, y_sample.npy, x_test.npy, y_test.npy' are the tranining datas already attached. Normally it is the output of 'readtestdata_size.py'
 
 
 ### Environment (Python packages)
